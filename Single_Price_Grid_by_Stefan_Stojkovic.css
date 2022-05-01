@@ -1,0 +1,205 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  width: 100vw;
+  height: 100vh;
+}
+
+body {
+  font-family: 'Karla',sans-serif;
+  background: #e5eff5;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 518px;
+  height: 433px;
+}
+
+.container .join {
+  background-color: white;
+  height: 45%;
+  width: 100%;
+  padding: 6%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.container .join h2 {
+  color: #2ab2af;
+  margin-bottom: 4%;
+  font-size: 22px;
+}
+
+.container .join h4 {
+  color: #c0df34;
+  margin-bottom: 2%;
+}
+
+.container .join p {
+  color: #98a6bd;
+  font-size: 14px;
+  line-height: 1.7em;
+  padding-right: 10%;
+}
+
+.container .subscription {
+  background: #2ab2af;
+  height: 55%;
+  width: 50%;
+  padding: 6%;
+  color: white;
+  border-bottom-left-radius: 10px;
+}
+
+.container .subscription h4 {
+  margin-bottom: 7%;
+}
+
+.container .subscription h2 {
+  display: inline-block;
+  font-size: 27px;
+  margin-right: 5%;
+}
+
+.container .subscription p:nth-of-type(1) {
+  display: inline;
+  vertical-align: 0.4em;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.container .subscription p:nth-of-type(2) {
+  font-size: 15px;
+  letter-spacing: 0.3px;
+  margin-top: 4%;
+  margin-bottom: 12%;
+}
+
+.container .subscription a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-decoration: none;
+  text-transform: capitalize;
+  background-color: #c0df34;
+  border-radius: 5px;
+  -webkit-box-shadow: 3px 3px 10px #249e9c;
+          box-shadow: 3px 3px 10px #249e9c;
+  color: white;
+  width: 100%;
+  height: 25%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+}
+
+.container .why-us {
+  background: #4abebd;
+  height: 55%;
+  width: 50%;
+  padding: 6%;
+  border-bottom-right-radius: 10px;
+  color: white;
+}
+
+.container .why-us h4 {
+  font-size: 16px;
+  margin-bottom: 7%;
+}
+
+.container .why-us ul li {
+  font-size: 12px;
+  padding-right: 20%;
+  margin: 3% auto;
+}
+
+@media only screen and (max-width: 375px) {
+  .container {
+    -ms-flex-line-pack: center;
+        align-content: center;
+  }
+  .container section {
+    -ms-flex-preferred-size: 250px;
+        flex-basis: 250px;
+  }
+  .container .join {
+    height: 220px;
+    padding: 5%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+  }
+  .container .join h2 {
+    font-size: 16px;
+    margin-top: 3%;
+    margin-bottom: 8%;
+  }
+  .container .join h4 {
+    font-size: 12px;
+    padding-right: 5%;
+    margin-bottom: 7%;
+  }
+  .container .join p {
+    font-size: 11px;
+    line-height: 2em;
+    padding-right: 3%;
+  }
+  .container .subscription {
+    border-bottom-left-radius: 0px;
+    height: 180px;
+  }
+  .container .subscription h4 {
+    font-size: 13px;
+  }
+  .container .subscription p:nth-of-type(1) {
+    font-size: 11px;
+  }
+  .container .subscription p:nth-of-type(2) {
+    font-size: 12px;
+  }
+  .container .why-us {
+    height: 190px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
+  .container .why-us h4 {
+    font-size: 15px;
+  }
+  .container .why-us ul li {
+    font-size: 11px;
+    padding-right: 25%;
+    margin: 2% auto;
+  }
+}
+/*# sourceMappingURL=Single_Price_Grid_by_Stefan_Stojkovic.css.map */
